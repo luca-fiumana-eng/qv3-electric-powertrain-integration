@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/34631374/README.md)
 # QV3 Electric Powertrain Conversion & Rear Swing-Arm Development
 
 **Vehicle electrification · Mechanical architecture · Powertrain integration · Structural FEA · Design iteration**
@@ -66,6 +67,37 @@ The aluminium configuration shows a **19.7% increase in reported torsional stiff
 The stress contour legends show local maxima of approximately **455.73 MPa** for the vertical load case and **990.88 MPa** for the braking case. These values exceed the assumed 140 MPa yield strength and were treated as critical areas for engineering review, not as a passed strength verification.
 
 The report's conclusion specifically identifies the connection between the brake-caliper support and the swing arm as requiring modification. This finding informed the design-review and modification activity.
+
+
+## FEM visual evidence
+
+The following figures are selected directly from the supplied ANSYS report. They show the load cases, equivalent von Mises stress contours and torsional-stiffness assessment. Captions distinguish the source report's simulation outputs from interpretation.
+
+### Load cases and boundary-condition illustrations
+
+| Vertical loading | Braking loading |
+|---|---|
+| ![Vertical load case](assets/fem/load_case_vertical.jpg) | ![Braking load case](assets/fem/load_case_braking.jpg) |
+
+### FEM results — vertical load case
+
+![Vertical load case FEM overview](assets/fem/fem_vertical_overview.jpg)
+
+![Vertical load case local stress detail](assets/fem/fem_vertical_detail.jpg)
+
+### FEM results — braking load case
+
+![Braking load case FEM overview](assets/fem/fem_braking_overview.jpg)
+
+![Braking case local stress detail](assets/fem/fem_braking_detail.jpg)
+
+![Brake-caliper / swing-arm interface stress detail](assets/fem/fem_braking_interface.jpg)
+
+### Torsional stiffness assessment
+
+![Torsional stiffness calculation and comparison](assets/fem/torsional_stiffness.jpg)
+
+*Figures are reproduced from the supplied FEM report (tec.rep.873, rev.00, 20 November 2019). The reported local stress maxima exceed the assumed 140 MPa yield strength; the source report calls for modification of the brake-caliper-support/swing-arm connection. These figures are evidence of the analysis and design-review process, not proof that the original configuration passed structural verification.*
 
 ## Engineering approach
 
