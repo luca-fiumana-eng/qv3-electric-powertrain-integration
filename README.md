@@ -99,43 +99,6 @@ The following figures are selected directly from the supplied ANSYS report. They
 
 *Figures are reproduced from the supplied FEM report (tec.rep.873, rev.00, 20 November 2019). The reported local stress maxima exceed the assumed 140 MPa yield strength; the source report calls for modification of the brake-caliper-support/swing-arm connection. These figures are evidence of the analysis and design-review process, not proof that the original configuration passed structural verification.*
 
-## Engineering approach
-
-1. Define the electric drivetrain packaging and mechanical interfaces within the existing vehicle architecture.
-2. Design the motor mounting and belt-drive integration.
-3. Develop the aluminium rear swing-arm geometry and interfaces.
-4. Define and review structural load cases for vertical, braking and torsional conditions.
-5. Interpret stress distributions and identify critical local regions.
-6. Iterate the design around critical interfaces and structural requirements.
-
-## Limitations and technical transparency
-
-The source report does not provide the exact aluminium alloy/temper, element count and formulation, mesh-convergence study, complete contact and bolt assumptions, full numerical displacement results, fatigue assessment, physical test correlation or a subsequent re-analysis proving that the proposed caliper-support modification resolves the identified stress peaks.
-
-The numerical results in this repository are transcribed from the supplied report. This portfolio case study is not a homologation document or a safety certification.
-
-## Repository structure
-
-```text
-.
-├── README.md
-├── docs/
-│   ├── fem-study-summary.md
-│   ├── project-description.md
-│   └── portfolio-notes.md
-└── assets/
-    └── drivetrain-integration-schematic.svg
-```
-
-## Skills demonstrated
-
-`Mechanical Design` · `Electric Vehicle Conversion` · `Powertrain Integration` · `Motor Mounting Design` · `Belt Drive Integration` · `Aluminium Structures` · `ANSYS` · `Finite Element Analysis` · `Structural Mechanics` · `Design Iteration` · `Automotive R&D`
-
-## Sources
-
-- EDI, *EQV3 Rear Swing Arm Al Alloy FEM Analysis*, tec.rep.873, revision 00, 20/11/2019 (source report supplied for this case study).
-- QVe technical brochure (source brochure supplied for this case study).
-
 ## Confidentiality
 
 Publish only information and images you are authorized to disclose. Do not upload proprietary CAD, detailed manufacturing drawings, restricted source files or confidential vehicle data without explicit permission.
